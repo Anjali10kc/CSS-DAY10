@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .cd > *{
+     background-color: aqua;
+
+        }
+        .cd{
+        display:grid;
+        height: 100vh;
+        gap: 10px;
+        text-align: center;
+        grid-template-columns: repeat(4, 100px);
+        }
+        .a{
+           grid-row-start: 1;
+           grid-row-end: 4;
+           background-color: green;
+        }
+        .b{
+            grid-row-start:  1;
+            grid-row-end: 2;
+            grid-column-start: 2;
+            grid-column-end: 4;
+background-color: red;
+        }
+        .f{
+            grid-row-start:1;
+            grid-row-end: 2;
+            background-color: blueviolet;
+        }
+        .e{
+            grid-row-start: 2;
+            grid-row-end:4;
+            grid-column-start: 4;
+            grid-column-end: 5;
+background-color: chartreuse;
+        }
+        .c{
+            background-color: black;
+        }
+        .d{
+            background-color: blue;
+        }
+        .g{
+background-color: darkcyan;
+        }
+        .h{
+            background-color: deeppink;
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="cd">
+    <div class="a">a</div>
+    <div class="b">b</div>
+    <div class="c">c</div>
+    <div class="d">d</div>
+    <div class="e">e</div>
+    <div class="f">f</div>
+    <div class="g">g</div>
+    <div class="h">h</div>
+   
+
+   </div> 
+</body>
+</html>
